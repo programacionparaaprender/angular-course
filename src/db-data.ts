@@ -1,4 +1,3 @@
-import { Course } from "./app/model/course";
 
 
 export const COURSES: any = [
@@ -85,5 +84,5 @@ export const COURSES: any = [
 
 
 export function findCourseById(courseId:number) {
-    return COURSES.find((course: Course) => course.id == courseId);
+    return COURSES.find(course => course.id == courseId);
 }

@@ -40,11 +40,10 @@ export class CourseCardComponent implements  OnInit {
 
 
 
-    constructor(
-      private coursesService: CoursesService,
-      @Attribute('type') private type: string) {
-      this.course = new Course();
-      this.cardIndex = 0;
+    constructor(private coursesService: CoursesService,
+                @Attribute('type') private type: string) {
+
+
     }
 
     ngOnInit() {

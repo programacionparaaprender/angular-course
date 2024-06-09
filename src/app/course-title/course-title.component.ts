@@ -11,9 +11,7 @@ export class CourseTitleComponent implements OnInit {
    @Input()
   title:string;
 
-  constructor() {
-    this.title = '';
-  }
+  constructor() { }
 
   ngOnInit() {
   }

@@ -11,6 +11,7 @@
 >- npm install body-parser core-js cors express
 >- npm install --save-dev ts-node
 >- npm i -D typescript @types/express @types/node
+>- npm install --save @angular/localize
 
 ### error
 >- https://blog.logrocket.com/how-to-set-up-node-typescript-express/

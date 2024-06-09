@@ -6,6 +6,7 @@ const express = require('express');
 import {Application} from "express";
 import {getAllCourses} from './server/get-courses.route';
 import {saveCourse} from './server/save-course.route';
+import { getCourse } from "./server/get-course.route";
 const cors = require('cors');
 
 const bodyParser = require('body-parser');
@@ -19,7 +20,7 @@ app.route('/api/courses').get(getAllCourses);
 
 app.route('/api/courses/:id').put(saveCourse);
 
-
+app.route('/api/courses/:id').get(getCourse);
 
 const httpServer = app.listen(9000, () => {
     

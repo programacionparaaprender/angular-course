@@ -13,9 +13,7 @@ export class CourseImageComponent implements OnInit {
 
 
 
-  constructor() {
-    this.imageUrl = '';
-  }
+  constructor() { }
 
   ngOnInit() {
   }
