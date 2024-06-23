@@ -27,7 +27,7 @@ export class HighlightedDirective {
     }
 
     @HostListener('mouseover', ['$event'])
-    mouseOver($event) {
+    mouseOver($event: any) {
 
         console.log($event);
 

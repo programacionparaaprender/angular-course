@@ -32,7 +32,7 @@ export class CourseCardComponent implements  OnInit {
     course: Course;
 
     @Input()
-    cardIndex: number;
+    cardIndex: number = 0;
 
     @Output('courseChanged')
     courseEmitter = new EventEmitter<Course>();
@@ -42,7 +42,7 @@ export class CourseCardComponent implements  OnInit {
 
     constructor(private coursesService: CoursesService,
                 @Attribute('type') private type: string) {
-
+                  this.course = new Course();
 
     }
 

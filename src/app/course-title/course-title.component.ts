@@ -9,7 +9,7 @@ import {Component, CUSTOM_ELEMENTS_SCHEMA, Input, OnInit} from '@angular/core';
 export class CourseTitleComponent implements OnInit {
 
    @Input()
-  title:string;
+  title:string = '';
 
   constructor() { }
 

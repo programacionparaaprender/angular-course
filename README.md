@@ -13,6 +13,12 @@
 >- npm i -D typescript @types/express @types/node
 >- npm install --save @angular/localize
 
+###
+npm install --save @angular/language-service @types/node
+
+### habilitar coverage
+>- https://angular.dev/guide/testing/code-coverage
+
 ### error
 >- https://blog.logrocket.com/how-to-set-up-node-typescript-express/
 >- https://stackoverflow.com/questions/58729856/how-to-solve-can-only-be-default-imported-using-the-esmoduleinterop-flag-in
