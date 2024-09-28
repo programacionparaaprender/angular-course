@@ -6,14 +6,9 @@ import {Component, CUSTOM_ELEMENTS_SCHEMA, Input, OnInit} from '@angular/core';
   styleUrls: ['./course-title.component.css'],
   standalone: true
 })
-export class CourseTitleComponent implements OnInit {
+export class CourseTitleComponent {
 
    @Input()
   title:string = '';
-
-  constructor() { }
-
-  ngOnInit() {
-  }
 
 }
